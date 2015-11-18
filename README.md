@@ -32,6 +32,10 @@ $ ./app/console doctrine:schema:create
 $ ./app/console assetic:dump
 $ ./app/console assets:install
 ```
+# Accessing api:
+$ ./app/console server:run
+Open http://127.0.0.1:8000/api/doc in browser
+All details are listed there.
 
 # Runnng phpUnit tests:
 (before running tests please set the KERNEL_DIR in phpunit.xml
